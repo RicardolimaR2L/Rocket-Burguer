@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://www.emporiotambo.com.br/pub/media/resized/1420x874/ves/blog/xtipos-de-hamburguer.png.pagespeed.ic.3ty4PTuj8D.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  }
+
+/*content*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  color: #363f3f;
+  background-color: rgb(233, 233, 233,0.7);
+  border: 1px white solid;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+/*header*/
+header {
+  display: block;
+}
+h1 {
+  color: #148e78;
+  margin-bottom: 0.4rem;
+}
+h1 span {
+  color: #363f3f;
+}
+header p {
+  margin-left: 2.8rem;
+  margin-bottom: 0rem;
+}
+
+/*section */
+
+ul {
+  list-style-type: none;
+}
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 50px;
+
+  width: 375px;
+  height: 37px;
+  color:#148e78;
+
+  background: #d2d7d7;
+  margin-bottom: 2.4rem;
+  border-radius: 20px;
+}
+/*section hover*/
+h2:hover {
+  color:  #363f3f;
+
+}
+
+/*strong*/
+.details strong {
+  margin-left: 190px;
+}
+.details strong.price {
+  margin-left: 200px;
+}
+
+.description {
+  margin-bottom: 1.6rem;
+}
+
+h3 {
+  margin-bottom: 1.6rem;
+}
+
+/*section drinks*/
+section.drinks{
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgb(233, 233, 233,0.5);
+  border: 1px white solid;
+  border-radius: 20px;
+  color: #363f3f;
+margin-bottom: 20px;
+}
+
+section.drinks h3 strong {
+  margin-left: 235px;
+}
+
+/*fonts*/
+h1,h2,h3{
+  font-family: "roboto serif" serif;
+  font-weight: 700;}
+
+  p{
+    font-family: "roboto" sans-serif;
+  }
