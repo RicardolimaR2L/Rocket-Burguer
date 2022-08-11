@@ -32,6 +32,13 @@ body {
 /*header*/
 header {
   display: block;
+  width: 360px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgb(233, 233, 233,0.7)
+
 }
 h1 {
   color: #148e78;
